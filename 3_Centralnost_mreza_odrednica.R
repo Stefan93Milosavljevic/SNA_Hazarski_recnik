@@ -230,7 +230,7 @@ CB_10.df <- cbind(CB_sort_u %>% select(id, ime, CB_u),
                    CB_sort_iz_t %>% select(id, ime, CB_iz_t),
                    CB_sort_neusm %>% select(id, ime, CB_neusm),
                    CB_sort_neusm_t %>% select(id, ime, CB_neusm_t)) %>%
-  head(10); format.data.frame(CB_10.df, digits=2)
+  head(10); format.data.frame(CB_10.df, digits=3)
 # write.csv(CB_10.df, "CB_prvih_10.csv")
 
 # Primeri vizualizacije pomocu barplota:
