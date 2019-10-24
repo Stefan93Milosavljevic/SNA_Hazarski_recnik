@@ -71,7 +71,7 @@ CS.df<-data.frame(id=as.integer(V(Odrednice_mreza_atributi)$name),
            CS_iz_t)
 
 # Korelacija medju centralnostima stepena po usmerenosti i tezinama:
-# (Svuda koristimo Spirmanov test, jer je ranije vec pokazano da podaci nemaju normalnu raspodelu)
+# (Svuda koristimo Spirmanov test, jer je utvrdjeno da nemaju (svi) podaci normalnu raspodelu, v. nize red 375. i dalje)
 
 korelacija_CS<- cor(CS.df[,3:6], 
                              use='complete.obs',
