@@ -1,0 +1,6 @@
+Napomena uz 1_Ekstrakcija_veza_HR.R
+
+Za tekst Hazarskog rečnika koji je neophodan za ovu R-skriptu
+treba slediti uputstvo u odeljku 3.2 priloženog master rada, 
+gde je naveden link ka romanu, kao i izmene koje su nad tekstom vršene
+pre dalje obrade u R-u
